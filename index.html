@@ -29,26 +29,26 @@
 <body>
 
     <div class="container">
-        <div class="jumbotron text-center bg-success text-white">
+        <div class="jumbotron text-center  bg-danger text-white">
             <h1>It's Train Time!</h1>
             <P>Choo Choo.</P>
         </div>
 
         <!-- "Current Train Schedule" Table -->
 
-        <div class="panel panel-success text-success">
+        <div class="panel panel-success text-dark">
             <div class="panel-heading">
                 <h3>Current Train Schedule</h3>
             </div>
             <div class="panel-body">
-                <table class="table">
+                <table class="table table-danger">
                     <thead>
                         <tr>
-                            <th>Train Name:</th>
-                            <th>Destination:</th>
-                            <th>Frequency(min):</th>
-                            <th>Next Arrival:</th>
-                            <th>Minutes Away:</th>
+                            <th class="bg-danger text-white">Train Name:</th>
+                            <th class="bg-danger text-white">Destination:</th>
+                            <th class="bg-danger text-white">Frequency(min):</th>
+                            <th class="bg-danger text-white">Next Arrival:</th>
+                            <th class="bg-danger text-white">Minutes Away:</th>
                         </tr>
                     </thead>
 
@@ -62,8 +62,8 @@
 
         <!-- Form for adding a new train -->
 
-        <div class="panel panel-success text-success">
-            <div class="panel-heading">
+        <div class="panel panel-success text-dark">
+            <div class="panel-heading ">
                 <h3>Add Train</h3>
             </div>
 
@@ -89,7 +89,7 @@
                         <input type="text" class="form-control" id="frequency">
                     </div>
 
-                    <button type="submit" id="add-train" class="btn btn-success" id="addTrain">Submit</button>
+                    <button type="submit" id="add-train" class="btn btn-danger" id="addTrain">Submit</button>
                 </form>
             </div>
         </div>

@@ -1,10 +1,14 @@
 .jumbotron {
-    background-color: #971470;
-    color: palevioletred;
+    margin: 2%;
     padding-top: 2%;
     padding-bottom: 1%;
 }
 
 .panel-heading {
     padding-top: 0.25%;
+}
+
+body {
+    background-size: cover;
+    background-image: url("../style/images/back1.jpg")
 }
